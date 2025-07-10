@@ -19,3 +19,9 @@ while True:
     print(f"Your choice : {emojis[user_choice]}")
 
     print(f"Computer choice : {emojis[computer_choice]}")
+
+    if user_choice == computer_choice:
+
+        print("Tie!")
+
+        
