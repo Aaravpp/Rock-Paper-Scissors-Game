@@ -34,3 +34,10 @@ while True:
     else:
 
         print("You Lose")
+
+
+    should_continue = input("Play?  (y / n): ").lower()
+
+    if should_continue == "n":
+
+        break
