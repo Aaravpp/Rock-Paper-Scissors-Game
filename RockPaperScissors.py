@@ -1,6 +1,6 @@
 import random
 
-imojis = {"r" : "🪨", "p" : "📃", "s" : "✂️"}
+emojis = {"r" : "🪨", "p" : "📃", "s" : "✂️"}
 
 choices = ("r", "p", "s")
 
@@ -13,3 +13,9 @@ while True:
         print("Invalid choice")
 
         continue
+
+    computer_choice = random.choice(choices)
+
+    print(f"Your choice : {emojis[user_choice]}")
+
+    print(f"Computer choice : {emojis[computer_choice]}")
